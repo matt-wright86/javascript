@@ -1,22 +1,4 @@
-<h1>Movies#index</h1>
-<p>Find me in app/views/movies/index.html.erb</p>
-
-
-<script>
-  $(window).ready(function(){
-    $.getJSON("/movies.json").then(function(data){
-      var movies = data.movies;
-      console.log(movies);
-      // use underscore on the data
-    })
-  });
-
-
-
-
-
-</script>
-
+<h1>Movies</h1>
 
 <div class="low-budgets">
 
@@ -25,3 +7,5 @@
 <div class="leo-movies">
 
 </div>
+
+<button type="button" class="btn btn-primary">Movie Button</button>
